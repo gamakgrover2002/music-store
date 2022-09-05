@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import './index.css';
+
 import Palette from './palette';
 
 const Content = styled.div`
@@ -27,10 +29,10 @@ const Button = styled.button`
 	height: 28px;
 	:hover {
 		cursor: pointer;
-		background-color: ${Palette('Secondary','light')};
+		background-color: ${Palette('Secondary')};
 	}
 	:focus {
-		outline-color: ${Palette('Secondary','light')};
+		outline-color: ${Palette('Secondary')};
 	}
 `;
 
@@ -84,7 +86,7 @@ class Header extends React.Component {
 		));
 		return (
 			<Content>
-				<Title>Spotify clone</Title>
+				<Title>Spotify </Title>
 				<ItunesForm>
 					<Input
 						type="text"
@@ -98,6 +100,7 @@ class Header extends React.Component {
 					<Button onClick={() => startSearch(searchText, searchMedia)}>
 						<i className="material-icons">search</i>
 					</Button>
+					
 				</ItunesForm>
 				
 				

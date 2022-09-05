@@ -4,10 +4,6 @@ export const mediaTypes = [
 	'music',
 	'musicVideo',
 	'audiobook',
-	'shortFilm',
-	'tvShow',
-	'software',
-	'ebook',
 	'all',
 ];
 

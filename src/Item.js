@@ -24,14 +24,19 @@ const CardText = styled.div`
 	text-overflow: ellipsis;
 `;
 
-const Item = ({ kind, artistName, trackName, artworkUrl100 }) => (
+const Item = ({ kind, artistName, trackName, artworkUrl100, previewUrl }) => (
 	<Card>
 		<div>{kind}</div>
 		<CardText>{artistName}</CardText>
 		<CardText>{trackName}</CardText>
 		<div>
 			<img src={artworkUrl100} />
+			<audio controls>
+  <source src={previewUrl} type="audio/ogg">
+  </source></audio>
+
 		</div>
+
 	</Card>
 );
 
