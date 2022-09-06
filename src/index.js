@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Components/Header';
-import ItemsList from './ItemsList';
-import { itunesApiRequest, mediaTypes } from './utils';
+import ItemsList from './Components/ItemsList';
+import { itunesApiRequest, mediaTypes } from './Components/utils';
 import styled, { createGlobalStyle } from 'styled-components';
-import Palette from './palette';
-
+import Palette from './Components/palette';
+import './App.css';
 
 const GlobalStyle = createGlobalStyle`
   html, body {

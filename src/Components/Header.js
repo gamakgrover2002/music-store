@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Palette from '../palette';
+import Palette from './palette';
 
 const Content = styled.div`
 	position: fixed;
@@ -28,7 +28,7 @@ const Button = styled.button`
 	height: 28px;
 	:hover {
 		cursor: pointer;
-		background-color: ${Palette('Secondary')};
+		${Palette('Secondary', 'dark')}
 	}
 	:focus {
 		outline-color: ${Palette('Secondary')};
@@ -85,7 +85,7 @@ class Header extends React.Component {
 		));
 		return (
 			<Content>
-				<Title>Spotify </Title>
+				<Title><b>Spotify</b> </Title>
 				<ItunesForm>
 					<Input
 						type="text"

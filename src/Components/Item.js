@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import Palette from '../palette';
+import Palette from './palette';
 
 const Card = styled.div`
-	height: 200px;
-  width: 150px;
+	height: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,10 +30,10 @@ const Item = ({ kind, artistName, trackName, artworkUrl100, previewUrl }) => (
 		<CardText>{artistName}</CardText>
 		<CardText>{trackName}</CardText>
 		<div>
-			<img src={artworkUrl100} /><centre>
-			<audio controls>
+			<img src={artworkUrl100} />
+			<div id="audio"><audio controls>
   <source src={previewUrl} type="audio/ogg">
-  </source></audio></centre>
+  </source></audio></div>
 
 		</div>
 
