@@ -85,7 +85,7 @@ class Header extends React.Component {
 		));
 		return (
 			<Content>
-				<Title><b>Spotify</b> </Title>
+				<Title>	MUSIC STORE</Title>
 				<ItunesForm>
 					<Input
 						type="text"
@@ -100,9 +100,12 @@ class Header extends React.Component {
 						<i className="material-icons">search</i>
 					</Button>
 					
+					
+					
+					
 				</ItunesForm>
-				
-				
+			
+		
 			</Content>
 		);
 	}

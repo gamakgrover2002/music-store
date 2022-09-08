@@ -3,7 +3,7 @@ export const mediaTypes = [
 	'podcast',
 	'music',
 	'musicVideo',
-	'audiobook',
+	'audiobooks',
 	'all',
 ];
 

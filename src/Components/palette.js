@@ -1,14 +1,13 @@
-
 const palette = {
   Primary: {
-    500: '#07e607',
+    500: '#2196f3',
     light: '#6ec6ff',
-    dark:'#38e012'
+    dark: '#0069c0'
   },
   Secondary: {
-    500: '#21d111',
+    500: '#f50057',
     light: '#ff5983',
-    dark: '#0c960e',
+    dark: '#bb002f'
   },
   Grey: {
     100: '#cccccc',
@@ -20,12 +19,12 @@ const palette = {
     800: '#232323',
   },
   Black: {
-    500: '	#FFFFFF',
+    500: '#000000',
     transparent_50: 'rgba(0, 0, 0, 0.5)',
     transparent: 'rgba(0, 0, 0, 0)',
   },
   White: {
-    500: '#000000',
+    500: '#ffffff',
     transparent_50: 'rgba(255, 255, 255, 0.5)',
     transparent: 'rgba(255, 255, 255, 0)',
   },
