@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
 import Palette from './palette';
 
 const Content = styled.div`
@@ -85,8 +86,10 @@ class Header extends React.Component {
 		));
 		return (
 			<Content>
-				<Title>	MUSIC STORE</Title>
+			
+				<Title><div id='text'>	MUSIC STORE</div></Title>
 				<ItunesForm>
+				
 					<Input
 						type="text"
 						value={searchText}

@@ -7,7 +7,7 @@ const palette = {
   Secondary: {
     500: '#f50057',
     light: '#ff5983',
-    dark: '#bb002f'
+    dark: '#0c8eeb'
   },
   Grey: {
     100: '#cccccc',
